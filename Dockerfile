@@ -1,5 +1,7 @@
 FROM debian:bullseye-slim
 
+LABEL org.opencontainers.image.source https://github.com/bogosj/docker-speedtest-cli
+
 RUN apt update
 RUN yes | apt install curl
 
